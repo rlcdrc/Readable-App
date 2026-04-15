@@ -35,7 +35,6 @@ final ValueNotifier<String> readingSpeedNotifier = ValueNotifier<String>("1.0x")
 //9. THE GLOBAL QUIZ ACCURACY NOTIFIER (for tracking quiz performance)
 final ValueNotifier<double> accuracyNotifier = ValueNotifier<double>(0.0);
 
-  // Your existing Map
   final Map<String, List<Map<String, String>>> subjectContent = {
   "Reading": [
   {
